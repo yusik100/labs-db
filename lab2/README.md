@@ -143,7 +143,13 @@
 ## 5. Приклади даних
 
 ![Таблиця User](examples/example1.png)
+
+---
+
 ![Таблиця Track](examples/example2.png)
+
+---
+
 ![Таблиця PlaylistTrack](examples/example3.png)
 
 ---
