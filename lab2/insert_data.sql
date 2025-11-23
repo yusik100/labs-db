@@ -3,12 +3,12 @@ INSERT INTO Artist (stage_name, country, genre) VALUES
 ('Adele', 'UK', 'Pop'),
 ('The Weeknd', 'Canada', 'R&B');
 
-INSERT INTO Album (title, release_year, artist_id) VALUES
-('Evolve', 2017, 1),
-('25', 2015, 2),
-('After Hours', 2020, 3);
+INSERT INTO Album (title, release_year) VALUES
+('Evolve', 2017),
+('25', 2015),
+('After Hours', 2020);
 
-INSERT INTO Track (title, duration, release_date, album_id) VALUES
+INSERT INTO Track (title, duration_seconds, release_date, album_id) VALUES
 ('Believer', 204, '2017-02-01', 1),
 ('Thunder', 187, '2017-04-27', 1),
 ('Hello', 295, '2015-10-23', 2),
