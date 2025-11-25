@@ -25,3 +25,6 @@ INSERT INTO "User" (name, email, password_hash) VALUES
 
 INSERT INTO Track (title, duration_seconds, release_date, album_id) 
 VALUES ('Flowers', 200, '2023-01-12', NULL);
+
+SELECT * FROM Subscriptiontype
+ORDER BY price ASC;
