@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS Track (
     title VARCHAR(150) NOT NULL,
     duration_seconds INT NOT NULL CHECK (duration_seconds > 0),
     release_date DATE NOT NULL,
-    album_id INT NOT NULL REFERENCES Album(album_id) ON DELETE CASCADE
+    album_id INT REFERENCES Album(album_id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS "User" (
