@@ -15,14 +15,14 @@ INSERT INTO AlbumArtist (album_id, artist_id) VALUES
 
 INSERT INTO Track (title, duration_seconds, release_date, album_id) VALUES
 ('Believer', 204, '2017-02-01', 1),
-('Thunder', 187, '2017-04-27', 1),
+('Thunder', 187, '2017-04-27', NULL),
 ('Hello', 295, '2015-10-23', 2),
 ('Blinding Lights', 200, '2019-11-29', 3),
-('One More Time', 320, '2000-11-13', 4),
+('One More Time', 320, '2000-11-13', NULL),
 ('Harder, Better, Faster, Stronger', 224, '2001-10-13', 4);
 
 INSERT INTO TrackArtist (track_id, artist_id) VALUES
-(1, 1), (2, 1), (3, 2), (4, 3), (5, 4), (6, 4);
+(2, 1), (5, 4);
 
 INSERT INTO "User" (name, email, password_hash, registration_date) VALUES
 ('Alice', 'alice@example.com', 'hash123', '2023-01-10'),
