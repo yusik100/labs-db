@@ -22,7 +22,7 @@ INSERT INTO Track (title, duration_seconds, release_date, album_id) VALUES
 ('Harder, Better, Faster, Stronger', 224, '2001-10-13', 4);
 
 INSERT INTO TrackArtist (track_id, artist_id) VALUES
-(2, 1), (5, 4), (7, 3);
+(2, 1), (5, 4);
 
 INSERT INTO "User" (name, email, password_hash, registration_date) VALUES
 ('Alice', 'alice@example.com', 'hash123', '2023-01-10'),
@@ -32,7 +32,7 @@ INSERT INTO "User" (name, email, password_hash, registration_date) VALUES
 
 INSERT INTO SubscriptionType (name, price) VALUES
 ('No Ads', 4.99),
-('Premium', 9.99),
+('Premium', 9.99);
 
 INSERT INTO Subscription (type_id, start_date, end_date, user_id) VALUES
 (1, '2024-01-01', NULL, 1), 
